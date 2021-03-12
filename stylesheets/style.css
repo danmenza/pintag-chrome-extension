@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+
+ html,
+ body {
+  font-family: "Nunito", "Helvetica", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 384px;
+}
+
+h1 {
+  font-family: "Work Sans", "Helvetica", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #2f5876;
+}
+
+img {
+  width: 30px;
+}
+
+.header {
+  height: 50px;
+  background-color: #62bcba;
+  text-align: center;
+  color: #fcfcfc;
+  padding-top: 10px;
+}
+
+.modal-content {
+  padding: 0 22px;
+}
+
+.modal-icons {
+  height: 50px;
+  width: 100%;
+}
+
+.fa-map-pin:before {
+    text-align: center;
+    vertical-align: middle;
+    color: #fcfcfc;
+    font-size: 20px;
+}
+
+#myButton {
+  background-color: #62bcba;
+  color: #fcfcfc;
+  border: none;
+}
+
+#myButton:hover {
+  background-color: #fcfcfc;
+  color: #62bcba;
+  border: 1px solid #62bcba;
+}
+
+#ajaxResponse {
+  display: inline-block;
+  text-align: right;
+  margin-left: 10px;
+}
